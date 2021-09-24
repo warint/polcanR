@@ -13,7 +13,7 @@
 # *---------------------------------------------------------------------------
 
 # Loading data
-url <- paste0("https://warin.ca/datalake/tweets/polcanR/canadianElectionTweets.csv")
+url <- paste0("https://warin.ca/datalake/polcanR/canadianElectionTweets.csv")
 path <- file.path(tempdir(), "temp.csv")
 if (httr::http_error(url)) { # network is down = message (not an error anymore)
   message("No Internet connection or the server is in maintenance mode.")
@@ -56,8 +56,8 @@ polcan_language <- base::unique(polcan_data$language)
 #' all_tweets <- polcanr_data()
 #' en_tweets <- polcanr_data(languages = "en")
 #' fr_tweets <- polcanr_data(languages = "fr")
-#' tweets_19sept <- polcanr_data(dates = "2021-09-19)
-#' en_tweets_19sept <- polcanr_data(dates = "2021-09-19, languages = "en")
+#' tweets_19sept <- polcanr_data(dates = "2021-09-19")
+#' en_tweets_19sept <- polcanr_data(dates = "2021-09-19", languages = "en")
 
 polcanr_data <- function(dates = polcan_date,
                          languages = polcan_language) {

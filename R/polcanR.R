@@ -1,16 +1,4 @@
-# *---------------------------------------------------------------------------
-# | PROGRAM NAME: polcanR package function
-# | DATE: 23/09/2021
-# | CREATED BY:  Thibault Senegas <thibault.senegas@nuance-r.com>
-# |              Thierry Warin <thierry.warin@nuance-r.com>
-# *---------------------------------------------------------------------------
-# | PURPOSE:  This script contains the code for polcanR function
-# |
-# *---------------------------------------------------------------------------
-# | UPDATES: 23/09/2021 (last update)
-# |
-# |
-# *---------------------------------------------------------------------------
+
 
 # Loading data
 url <- paste0("https://warin.ca/datalake/polcanR/canadianElectionTweets.csv")

@@ -4,7 +4,7 @@ Title: 2021 Canadian election tweets data package
 Version: 0.1.0
 Authors@R: 
     person("Thierry", "Warin", email = "thierry.warin@hec.ca", role =c("aut", "cre"), comment = c(ORCID = "0000-0002-5921-3428") )
-Description: Retrieve tweets fron the 2021 Canadian election
+Description: Retrieve tweets fron the 2021 Canadian election.
 Imports: curl, httr, dplyr, lubridate
 License: MIT + file LICENSE
 Encoding: UTF-8
@@ -15,3 +15,6 @@ Suggests:
     rmarkdown,
     knitr
 VignetteBuilder: knitr
+URL: http://github.com/warint/polcanR
+BugReports: https://github.com/warint/polcanR/issues/
+

@@ -28,6 +28,8 @@ polcanR is an R package that connects to a database containing all the tweets re
 - #ItsOurVote
 - #CestNotreVote
 
+We used this data to create a dashboard that tracked the dynamics of conversations on twitter. The dashboard is available [here](https://warin.ca/elections_en/).
+
 ## Installation
 
 You can install the released version of polcanR from [CRAN](https://CRAN.R-project.org) with:

@@ -21,6 +21,10 @@ on this period containing one or more of the following hashtags:
 -   \#ItsOurVote
 -   \#CestNotreVote
 
+We used this data to create a dashboard that tracked the dynamics of
+conversations on twitter. The dashboard is available
+[here](https://warin.ca/elections_en/).
+
 ## Installation
 
 You can install the released version of polcanR from
